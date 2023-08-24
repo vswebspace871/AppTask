@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.apptask.fragments.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_splashGetStarted"
+            app:destination="@id/splashGetStarted" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashGetStarted"
+        android:name="com.example.apptask.fragments.SplashGetStarted"
+        android:label="fragment_splash_get_started"
+        tools:layout="@layout/fragment_splash_get_started" >
+        <action
+            android:id="@+id/action_splashGetStarted_to_enterMobileInfoFragment"
+            app:destination="@id/enterMobileInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/enterMobileInfoFragment"
+        android:name="com.example.apptask.fragments.EnterMobileInfoFragment"
+        android:label="fragment_enter_mobile_info"
+        tools:layout="@layout/fragment_enter_mobile_info" >
+        <action
+            android:id="@+id/action_enterMobileInfoFragment_to_verifyOTPFragment"
+            app:destination="@id/verifyOTPFragment" >
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/verifyOTPFragment"
+        android:name="com.example.apptask.fragments.VerifyOTPFragment"
+        android:label="fragment_verify_o_t_p"
+        tools:layout="@layout/fragment_verify_o_t_p" >
+        <argument
+            android:name="number"
+            app:argType="string" />
+        <argument
+            android:name="otp"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_verifyOTPFragment_to_createProfileFragment"
+            app:destination="@id/createProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createProfileFragment"
+        android:name="com.example.apptask.fragments.CreateProfileFragment"
+        android:label="fragment_create_profile"
+        tools:layout="@layout/fragment_create_profile" />
+</navigation>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AppTask</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="desc">O On-Time Departures. Pay just for your seat. No Refusal from our end. Spacious Comfortable Seating. Female passengers safety standards. Onboard Refreshments. Cab Tracking through Maps</string>
+    <string name="condition">By creating passcode you agree with our <font fgcolor='#FF7F5D'>Terms &amp; Conditions</font> and <font fgcolor='#FF7F5D'>Privacy Policy</font></string>
+    <string name="not_receive_otp">don\'t receive OTP? <font fgcolor='#FF7F5D'><b>Resend</b></font></string>
+    <string name="request_otp">Request OTP</string>
+    <string name="logo">logo</string>
+    <string name="find_nearest">Find Nearest Local \n Market</string>
+    <string name="smlogo">smlogo</string>
+    <string name="best_markitplac">Best Markitplac</string>
+    <string name="get_started">Get Started</string>
+    <string name="enter_your_mobile_number">Enter your mobile number</string>
+    <string name="hello_welcome_back_to_our_account">Hello, Welcome Back to Our Account</string>
+    <string name="_00000_00000">00000 00000</string>
+    <string name="login_with">Login With</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="otp">otp</string>
+    <string name="submit">Submit</string>
+    <string name="_91_999129192">+91 999129192</string>
+    <string name="we_have_sent_the_code_verification_to_your_mobile_number">We Have sent the code verification to your mobile number</string>
+    <string name="enter_your_verification_code">Enter your Verification code</string>
+    <string name="edit">edit</string>
+
+</resources>
